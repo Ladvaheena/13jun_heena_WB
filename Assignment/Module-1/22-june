@@ -1,0 +1,25 @@
+Foundation
+
+WEB SITE:
+-> wet site is collenction of web pages.
+-> first page of the wet side is known as home page.
+-> there are two tupes of web sites.
+1.Static website:
+  -This types of web sites do not save any deta.
+2.Dynamic website:
+  - this types of websites store deta.
+-----------------------------------------------------------------    
+HTTP:
+-> Http:Hyper Text Transfer Protocol
+-> This protocol is less secure compared to Https protocol.
+-> This one part of the URL link.
+------------------------------------------------------------------
+URL:
+URL: Uniform Resource Locater
+-> It is one type of link.
+->It is made of some part, Like: Protocol,Domain name,Sub domain,Top leveldomain
+-> Ex:https:/www.filpcart.com
+  here, https:/ is protocol
+        www. is sub domain
+        filpcart is domain name
+        .com is top level domain
