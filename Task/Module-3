@@ -1,0 +1,23 @@
+DIFFRENTCE B/W CLIENT SITE SCRIPTING LAUGUAGE& SERVER SITE SCRIPTING LAUGUAGE
+
+Client Site Scripting Lauguage
+->Web browers execute client side scripting.
+->Sourse code visible to the user.
+->Its main function is to provide the requested output to the end user.
+->It useually depend on the browers & its version.
+->It runs on the user's computer.
+->It does not provide security for deta.
+->HTML,CSS,JAVA SCRIPT are used.
+->No need of interations with the server.
+->It resuces load on processing unit of the server.
+---------------------------------------------------------------------
+Server Site Scripting Lauguage
+->Web server are used to execute server site scripting.
+->They are basically used to create dynamic pages.
+->Source cose is not visible to the user because its output of server-side is am HTML page.
+->In this any serverside technology can be used & it does not sepemd on the client.
+->It runs on the webserver.
+->It provies more security for deta.
+->PHP,Phthon,java are used.
+->It is all about interacting with the servers.
+->It surge the processing load on the server.
