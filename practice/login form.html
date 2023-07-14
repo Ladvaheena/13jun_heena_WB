@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Log-In
+        </legend>
+        <form action=" https://www.google.com" method="get">
+        <label for="fnm">
+             First Name:
+         </label>
+        <input type="text" name="fnm"id="" placeholder="Enter your first name" required pattern="[A-Z,a-z]{3,20}">
+        <br><br>
+        <label for="lnm">
+             Last Name:
+        </label>
+        <input type="text" name="lnm" id="" placeholder="Enter your last name" required pattern="[A-Z,a-z]{5,20}">
+        <br><br>
+        <label for="snm">
+            Surname:
+        </label>
+        <input type="text" name="snm" id="" placeholder="Enter your surname" required>
+        <br><br>
+        <label for="email">
+            Email
+        </label>
+        <input type="email" name="email" id="" placeholder="Enter your email id" required>
+        &nbsp;&nbsp;
+        <label for="pass">
+            Password:
+        </label>
+        <input type="password" name="pass" id="" placeholder="Enter your email password"required pattern="[A-Z,a-z,0-9,@]{8,10}">
+        <br><br>
+        <label for="DOB">
+             Date Of Birth:
+        </label>
+        <input type="date"name="DOB" id="" placeholder="Enter your DOB"required>
+        <br><br>
+        <label for="phno">
+            Phone no:
+        </label>
+        <input type="tel" name="phno" id="" placeholder="Enter your phone no"required pattern="[0-9]{10}">
+        <br><br>
+        <center>
+        <input type="submit" name="submit"id=""value="Log in">
+    </center>
+    </form>
+    </fieldset>
+</body>
+</html>
