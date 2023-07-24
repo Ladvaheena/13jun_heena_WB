@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector-2</title>
+
+    <!-- applying group style -->
+    <style>
+        p,span{
+            background-color: cornsilk;
+            color: red;
+        }
+
+        /* applying child selector */
+        div{
+            background-color: azure;
+        }
+        div > p {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+
+<!-- group selection -->
+
+<h2>
+    &#9734 Group selection
+</h2>
+<p>
+    Group selection used to apply css style to particular group of the element.
+</p>
+<span>
+      For apply group selection, write element in style tag by separated them with coma (,) symbol.   
+</span>
+    <hr>
+
+    <!-- child selector -->
+
+    <h2>
+        &#9734 Child Selector
+    </h2>
+    <div>
+        <p>
+            Child Selector used to apply to css internal(child) element of main(Parent) element.
+        </p>
+    </div>
+    <code>
+       This selector apply by write parent element ,then graterthan (>) symbol & child element.
+    </code>
+
+</body>
+</html>
