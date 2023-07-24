@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector-3</title>
+    <!-- applying general css -->
+    <style>
+        h3 ~ p {
+            font-family: sans-serif;
+            color: blueviolet;
+        }
+
+        /* appling adjacent css */
+        h4 + div{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color:darkmagenta
+        }
+
+    </style>
+    
+</head>
+<body>
+
+    <!-- General selecror -->
+    <h3>
+         &#9734 General selector
+    </h3>
+    <p>
+        General selector used to select the group of element that share the common parent element. 
+    </p>
+    
+    <p>
+        This selector apply by  element-1 tlide (~)  symbol & element-2 
+    </p>
+    <hr>
+    
+    <!-- adjacent selector -->
+
+    <h4>
+        &#9734 Adjacent Selector
+    </h4>
+    <div>
+        The adjacent selector is used to select an element that is directly after another specific elements.
+        <q> Adjacent</q> meaning<q> Immediately following.</q> 
+    </div>
+    <div>
+        Sibling elements must have the same parent element,here parent element is body.
+    </div>
+    <div>
+        This selector apply by element-1 plus(+)symbol & element-2.
+    </div>
+
+    
+</body>
+</html>
