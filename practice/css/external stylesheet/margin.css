@@ -1,0 +1,17 @@
+h3{
+    text-align: center;
+    color: #3a9;
+    font-size: 30px;
+}
+p{
+    font-size: 22px;
+}
+div{
+    width: 60%;
+    height: 200px;
+    border: 1px ridge darkblue;
+    margin: auto;
+    background-color: aqua;
+    margin-top: 50px;
+
+}

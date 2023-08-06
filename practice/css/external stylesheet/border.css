@@ -1,0 +1,36 @@
+.d1{
+    border: inset;
+    border-width: 5px;
+    border-color: aqua;
+}
+.d2{
+    border-style: ridge;
+    border-width:6px ;
+    border-color: blue;
+}
+div{margin: 10px;
+}
+.d3{width: 400px;
+    border-bottom: 6px dashed  red;
+    border-top: 6px dotted crimson;
+    border-right: 6px solid green;
+    border-left: 6px double lime;
+    padding: 5px;
+}
+.dd{
+    border-style:solid;
+    border-color: blueviolet;
+    border-width: 4px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+
+    width: 500px;
+    padding: 6px;
+}
+h3{
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
