@@ -1,0 +1,76 @@
+table tr td{
+    text-align:right;
+
+}
+table tr td a{
+    color: gray;
+    text-decoration: none;
+    font-size: 20px;
+}
+.head-img{
+    text-align: left;
+    background-color: red;
+    
+}
+.button{
+    background-color: limegreen;
+    font-size: larger;
+    margin-top: 25%;
+    width: 200px;
+}
+.header:hover{
+    color: blue;
+}
+table tr .td{
+    text-align: left;
+    font-size: 25px;
+}
+.home:hover{
+    color: blue;
+}
+.image{
+    border: solid black;
+    border-radius: 5px;
+}
+.offer{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 500;
+    color: gray;
+}
+.Explore{
+    color: gray;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+}
+.exp{
+    text-align: center;
+    }
+    h3{
+        text-align: left;
+        color: green;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    p~p{
+        text-align: left;
+        font-size: 20px;
+        margin: auto;
+    }
+    .td-1{
+        text-align: left;
+        background-color: lightslategrey;
+    }
+    .menu{
+         font-size: 25px;
+        color: blue;
+    }
+    .footer{
+        background-color: honeydew;
+    }
+    div{
+        text-align: justify;
+        
+    }
