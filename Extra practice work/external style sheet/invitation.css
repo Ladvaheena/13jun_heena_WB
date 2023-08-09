@@ -1,0 +1,46 @@
+ .d1{
+     width: 35%;
+     height: 700px;
+     border: 50px inset black;
+     border-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/181/008/small/vintage-floral-ornament-border-on-pink.jpg') 30 50;
+     border-radius: 25px;
+      margin-left: 450px;
+     background-image:url(images/background.jpg);
+     background-repeat: no-repeat; 
+     background-size: 100% 100%;
+     text-align: center;
+ }
+ .d2{
+    font-size: 50px;
+     font-family: 'Dancing Script', cursive;
+  }
+  .d3{
+     font-size: 60px;
+     text-shadow: 3px 3px 7px purple;
+     font-family: 'Edu SA Beginner', cursive;
+  }
+  .d4{
+     text-transform: uppercase;
+     font-style: oblique;
+     font-size: 40px;
+     font-weight: 700;
+     font-family: cursive;
+     color:goldenrod;
+      }
+  .d5{
+     font-size: 32px;
+     font-family: 'Dancing Script', cursive;
+     font-weight: 700;
+     outline: 5px dashed peru;
+     width: 45%;
+     margin: auto;
+     background-color: lightpink;
+  }
+  
+  .d6{
+         font-size: 22px;
+         font-family: 'Handjet', cursive;
+         
+     text-align: left;    
+  }
+  div{text-align: center;}
