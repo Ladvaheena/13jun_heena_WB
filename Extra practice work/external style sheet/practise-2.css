@@ -1,0 +1,36 @@
+body{
+    background-image: url(images/pra-2.jpeg); 
+    background-size: 100%,100%; 
+ } 
+.td1
+{
+  color: aliceblue;
+  font-size: 35px;
+  width: 80%;
+}
+table{
+outline-style: dotted;
+outline-color: seashell;
+outline-offset: 2px;
+outline-width: 5px;
+}
+table{
+  margin-top: 100px;
+  margin-left: 330px;}
+  
+.td2{
+  color: whitesmoke;
+  width: 100%;
+}
+input{
+  border: none;
+    background: transparent;
+    border-bottom: 3px solid ;
+    border-bottom-color: whitesmoke;
+    width: 90%;
+  }
+  button{
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 24px;
+  }
