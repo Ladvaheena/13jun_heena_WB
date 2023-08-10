@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-clip</title>
+    <style>
+        h3{
+            text-align: center;
+            font-size: 35px;
+            color: blueviolet;
+        }
+        div{
+            font-size: 25px;
+            border:15px dashed goldenrod;
+            background-color: palevioletred;
+             /* background-clip: border-box; */
+            /* background-clip:content-box; */
+            background-clip: padding-box;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h3>
+        Background-clip property
+    </h3>
+    &#8614 Background-clip property used to define area,which is covered by background.<br>
+    &#8614 This property only apply on background-color property.<br>
+    &#8614 This property has <mark>Three different </mark>value.<br>
+    <ol>
+        <li><b>Border box</b> :- background color covers the contents & border area of the element.it's by default value. </li>
+        <li><b>Padding box</b> :- background color covers padding & content area of the element.</li>
+        <li><b>content-box</b> :- background color covers only content area of the element.</li>
+    </ol>
+</div>
+
+</body>
+</html>
