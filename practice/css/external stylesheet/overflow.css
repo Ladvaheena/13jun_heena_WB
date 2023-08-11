@@ -1,0 +1,24 @@
+h3{
+    text-align: center;
+    font-size: 32px;
+    color: rgb(125, 98, 199);
+}
+.d1{
+    font-size: 26px;
+}
+.d2{
+    width:500px;
+    height: 250px;
+    border: 10px solid yellow;
+    font-size: 25px;
+    /* overflow: visible; */
+    overflow: scroll;
+    /* overflow: hidden; */
+    /* overflow-x: hidden; */
+    /* overflow-y: visible; */
+
+
+}
+p{
+    width: 700px;
+   }
