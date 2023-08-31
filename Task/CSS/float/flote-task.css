@@ -1,0 +1,307 @@
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    position: relative;
+}
+.header>.press{
+    border: 1px solid;
+    position: absolute;
+    left: 150px;
+    top: 17px;
+    font-size: 40px;
+    padding: 10px;
+    background-color: skyblue;
+    color: white;
+    
+}
+.header button:hover{
+    cursor: pointer;
+}
+.home{
+    position: absolute;
+    top: 17px;
+    right: 600px;
+    font-size: 20px;
+    background-color: rgb(237, 231, 231);
+    border: none;
+    padding: 10px;
+    }
+.about{
+    position: absolute;
+    top: 17px;
+    font-size: 20px;
+    background-color:grey;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.a-1{
+    right: 470px;
+}
+.a-2{
+    right: 340px;
+}
+.a-3{
+    right: 185px;
+}
+.Document{
+    background-color:rgb(237, 231, 231);
+    height: 1900px;
+    width: 100%;
+}
+.main{
+    /* border: 1px solid; */
+    height: 100%;
+    float: left;
+    margin: 2px;
+    /* position: relative; */
+    width: 100%;
+    height: 1830px;
+}
+.m-1{
+    width: 55%;
+    }
+.m-2{
+    width: 43%;
+    }
+.table-1{
+    width: 85%;
+    height: 450px;
+    margin: auto;
+    position: relative;
+}
+.h-1{
+position: absolute;
+top: 20px;
+left: 45px;
+border-bottom: 1px solid gray;
+}
+.p-1{
+position: absolute;
+top:70px;
+left: 45px;
+font-size: 22px;
+}
+.p-1>span{
+color:rgb(42, 143, 183);
+}
+.para-1{
+width:100%;
+height: 320px;
+position: absolute;
+top:120px;
+left: 40px;
+}
+.img-1{
+width:40%;
+height:250px;
+}
+.img-1 img{
+height: 100%;
+width: 100%;
+filter: grayscale(90%);
+}
+.t-1{
+width: 50%;
+height: 260px;
+font-size: 18px;
+}
+.phase-1{
+float: left;
+margin:8px;
+}
+.c-1{
+font-size: 32px;
+width: 100%;
+height: 50px;
+background-color: skyblue;
+color: white;
+border: none;
+}
+.l-1{
+position: absolute;
+top: 88%;
+left: 43%;
+font-size: 22px;
+color: rgb(42, 143, 183);
+}
+
+/* part-2 */
+
+.search{
+    width: 70%;
+    height: 30px;
+    /* border: 1px solid; */
+    margin-left: 70px;
+    margin-top: 10px;
+    background-color: white;
+    font-size: 20px;
+    padding: 5px;
+    font-style: italic;
+}
+.second{
+    width: 72%;
+    height: 390px;
+    margin-top: 23px;
+    margin-left: 70px;
+    background-color: rgb(227, 217, 217);
+}
+.button{
+    margin: 12px;
+    width: 90%;
+    margin: auto;
+    }
+.button button{
+    font-size: 28px;
+    margin: 8px;
+    border: none;
+    margin-bottom: 0px;
+}
+.cata {
+    width: 86%;
+    height: 300px;
+    border: none;
+    margin: auto;
+    background-color: white;
+    margin-top: 0px;
+    
+}
+.list{
+    padding: 2px;
+    font-size: 22px;
+    margin-left: 10px;
+}
+.third{
+    width: 72%;
+    height:400px;
+    border: 1px solid rgb(227, 217, 217) ;
+    margin-top: 30px;
+    margin-left: 70px;
+    /* position: relative; */
+    background-color: rgb(227, 217, 217);
+    
+
+}
+.img-4{
+    width: 90%;
+    height: 350px;
+    margin: auto;
+    margin-top: 25px;
+}
+.image1{
+    width:100%;
+    height: 174px;
+}
+.i-1{
+    width: 45%;
+    height: 150px;
+}
+.i-1 img{
+    width: 100%;
+    height: 100%;
+}
+.i-2{
+    width: 45%;
+    height: 150px;
+}
+.i-2 img{
+    width: 100%;
+    height: 100%;    
+}
+.img-2{
+    float: left;
+    padding: 8px;
+}
+.last{
+    background-color: gray;
+    height: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.fourth{
+    width: 72%;
+    height:550px;
+    margin-top: 30px;
+    margin-left: 70px;
+    background-color: rgb(227, 217, 217);
+    }
+    .image2{
+        width: 100%;
+        height: 125px;
+    }
+    .img-3{
+        width: 30%;
+        height: 125px;
+        float: left;
+        padding: 6px;
+    }
+    .img-3 img{
+        width: 100%;
+        height: 100%;
+    }
+    .fifth{
+        width: 72%;
+        height: 320px;
+        background-color: rgb(227, 217, 217);
+        margin-top: 30px;
+        margin-left: 70px;
+        border: 1px solid  rgb(227, 217, 217);
+    }
+    .temp{
+        width:85%;
+        height: 250px;
+        margin-left: 35px;
+        margin-top: 36px;
+    }
+    .tem-1{
+        width: 100%;
+        height: 120px;
+        background: white;
+    }
+    .tem-1>span{
+        color: rgb(42, 143, 183);
+        font-size: 42px;
+    }
+    .tem-2{
+        width: 100%;
+        height: 130px;
+        background:lightgray;
+    }
+        .tem-2 > button{
+            margin-left: 150px;
+            background-color: gray;
+            color: white;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+        .footer{
+            padding: 5px;
+            font-size: 25px;
+            margin-left: 70px;
+        }
+        .but{
+            text-align: center;
+        }
+         .but >button{
+            margin-left: 3px;
+            border: none;
+            font-size: 20px;
+            
+        }
+        .fot{
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            color: white;
+        }
+        .copy{
+            padding: 20px;
+            font-size: 18px;
+        }
+        .web{
+            text-align: right;
+            padding: 2px;
+            font-size: 18px;
+            }
