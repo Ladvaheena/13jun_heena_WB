@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid-task</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .container{
+            width: 60%;
+            height: auto;
+            margin: auto;
+            border: 1px solid;
+            display: grid;
+            grid-template-rows: 40px 250px 180px 90px 100px;
+            grid-template-columns: 25% 50% 25%;
+        }
+        .container .item{
+            /* width: 100%; */
+            /* height: 150px; */
+            border: 1px solid red;
+            text-align: center;
+            font-size: 30px;
+            background-color: aqua;
+            }
+            .container .i-1{
+                /* height: 40px; */
+                grid-area: 1/ 1/ 2/ 4;
+                background-color: blue;
+                color: white;
+            }
+            .container .i-2{
+                grid-area: 3/ 1/ 6/ 2;
+                /* height: auto; */
+                background-color: red;
+                color: white;
+            }
+            .container .i-3{
+                grid-area: 2/ 1/ 3/ 4;
+                background-color: skyblue;
+                /* height: auto; */
+                color: white;
+            }
+            .container .i-4{
+                grid-area: 3/ 2/ 4/ 4;
+                /* height: auto; */
+                background-color: darkblue;
+                color: white;
+            }
+            .container .i-5{
+                grid-area: 4/ 2/ 5/ 4;
+                background-color: yellow;
+                color: black;
+            }
+            .container .i-6{
+                background-color: lightgreen;
+                color: black;
+            }
+            .container .i-7{
+                background-color: lightblue;
+                color: black;
+            }
+    </style>
+</head>
+<body>
+    <h1>Tablet View</h1>
+    <div class="container">
+        <div class="item i-1">HEADER</div>
+        <div class="item i-2">MENU</div>
+        <div class="item i-3">HERO</div>
+        <div class="item i-4">MAIN</div>
+        <div class="item i-5">BANNER</div>
+        <div class="item i-6">EXTRA</div>
+        <div class="item i-7">IMAGE</div>
+            </div>
+</body>
+</html>
