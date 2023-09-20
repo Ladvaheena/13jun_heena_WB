@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .detail h1{
+            text-align: center;
+            color: blue;
+        }
+       .detail p{
+            font-size: 20px;
+            /* border: 1px solid; */
+        }
+         ul>li{
+            font-size: 21px;
+            color: red;
+            /* border: 1px solid blue; */
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 1px solid red;
+            background-color: aquamarine;
+            margin: auto;
+            transition: 0.5s;
+        }
+        .container2:hover{
+            /* transform: rotate(180deg); */
+            /* transform: rotatex(180deg); */
+            /* transform: rotatey(180deg); */
+            /* transform: scale(2,3); */
+            /* transform: scalex(2); */
+            /* transform: scaley(3); */
+            /* transform: skew(-25deg); */
+            /* transform: skewx(25deg); */
+            /* transform: skew(-25deg); */
+            transform: translate(25px, 50px);
+            /* transform: translatex(25px); */
+            /* transform: translatey(50px); */
+        }
+    </style>
+</head>
+<body>
+    <div class="detail">
+    <h1>
+        Transform Property
+    </h1>
+    <p>
+         &#8614 The Transform property used to apply 2D & 3D animations to the element.<br>
+         &#8614 It is CSS3 property.<br>
+         &#8614 In this,we can apply four differnt value,which is given below..<br>
+        </p>
+         <ul>
+            <li>scale value</li>
+            <li>rotate value</li>
+            <li>skew value</li>
+            <li>translate value</li>
+         </ul>
+        <p>&#8614 Example:</p>
+</div>
+<div class=" box container1">box-1</div>
+<br>
+<div class=" box container2">box-2</div>
+</body>
+</html>
