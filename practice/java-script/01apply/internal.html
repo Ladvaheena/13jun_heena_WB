@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>internal java script</title>
+    <style>
+        h1{
+            color: red;
+        }
+        p{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h5"></h1>
+    <h3 id="h3"></h3>
+    <p id="p"></p>
+    <script>
+        // document.write('internal java script')
+        document.getElementById("h5").innerHTML="Internal java script"
+        console.log(document.getElementById('h5'))
+        // console.log(document.getElementById("h3"))
+        document.getElementById('h3').innerHTML="&#8614  It is apply in script tag in head tag or before end of body tag in HTML file."
+        document.getElementById('p').innerHTML="&#8614  Syntax: &lt;script&gt; Write java script rules &lt;/script&gt;"
+
+    </script>
+</body>
+</html>
