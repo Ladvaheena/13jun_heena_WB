@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border-color</title>
+    <style>
+        div{
+            width: 50%;
+            height: 200px;
+            border: 10px solid;
+            /* border-color:linear-gradient(red,orange,green,yellow); */
+            /* border-style:solid; */
+            border-image:linear-gradient( 50deg, violet,brown,blue,yellow,pink,skyblue)10;
+            margin: auto;
+            animation-name: border-change;
+            animation-duration: 0.8s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+        }
+        @keyframes border-change{
+            from{
+            border-image:linear-gradient( 50deg, violet,brown,blue,yellow,pink,skyblue)10;
+            }
+            to{
+                border-image: linear-gradient(60deg,red,darkblue,orangered,orange)10;
+            }
+        }
+        div h1{
+            font-size: 60px;
+            text-align: center;
+            line-height: 2;
+            text-shadow: 5px 5px 3px lightsalmon;
+        
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Multiple border property </h1>
+    </div>
+</body>
+</html>
