@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Relational Operator</title>
+    </head>
+    <body>
+        -> relational operator list given below;<br>
+        <ol>
+            <li><= --------lessthan equalto</li>
+            <li>>=-------Greterthan equalto </li>
+            <li><------lessthan</li>
+            <li>>------Greaterthan</li>
+            <li>== ---- check only value</li>
+            <li>=== ---- check only value & detatype</li>
+            <li>!= ---- check only value</li>
+            <li>!== ---- check only value</li>
+        </ol>
+        Corona Dose:
+        <input type="text" id="num" name>
+        <button type="button" onclick="check()"> Apply</button>
+        <script>
+        var coronadose = document.getElementById("num")
+        console.log(coronadose);
+        function check(){
+            if(coronadose.value == 2 ){
+                alert("u can apply for viza");
+            }
+            else if(coronadose.value <2){
+                alert("get one more dose");
+            }
+            else{
+                alert("please enter valid number");
+            }
+        }
+        
+    
+    
+    </script>
+    </body>
+</html>
