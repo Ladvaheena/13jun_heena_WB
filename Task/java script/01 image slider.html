@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image{
+            width: 80%;
+            height: 600px;
+            margin: auto;
+            position: relative;
+        }
+        .image img{
+            width: 100%;
+            height: 100%;
+        }
+        .image .forword{
+            position: absolute;
+            background-color: aquamarine;
+            font-size: 30px;
+            bottom: 0px;
+            left: 97%;
+        }
+        .image .backword{
+            position: absolute;
+            background-color: aquamarine;
+            font-size: 30px;
+            bottom: 0px;
+            right: 97%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="image" id="bg">
+        <img src="https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7cfe0e0674f6598c38ad.jpg" alt="" id="img">
+        <button class="forword" type="button" onclick="next()">></button>
+        <button class="backword" type="button" onclick="previous()"><</button>
+
+    </div>
+    <script>
+function next(){
+ var image=document.getElementById('img');
+
+if(image.src == 'https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7cfe0e0674f6598c38ad.jpg'){
+    image.src= 'https://t3.ftcdn.net/jpg/05/35/47/38/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg';
+}
+else if(image.src=='https://t3.ftcdn.net/jpg/05/35/47/38/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg'){
+    image.src='https://images.unsplash.com/photo-1618588507085-c79565432917?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww&w=1000&q=80';
+}
+else if(image.src=='https://images.unsplash.com/photo-1618588507085-c79565432917?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww&w=1000&q=80'){
+    image.src='https://image.winudf.com/v2/image1/Y29tLnBlcmZhY3RhcHBzLmphbWVzLm5hdHVyZV9zY3JlZW5fMF8xNTQyOTA5OTczXzA5OQ/screen-0.webp?fakeurl=1&type=.webp';
+}
+else{
+    image.src = 'https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7cfe0e0674f6598c38ad.jpg';
+}
+}
+function previous(){
+    var image=document.getElementById('img');
+
+    if(image.src=='https://image.winudf.com/v2/image1/Y29tLnBlcmZhY3RhcHBzLmphbWVzLm5hdHVyZV9zY3JlZW5fMF8xNTQyOTA5OTczXzA5OQ/screen-0.webp?fakeurl=1&type=.webp'){
+        image.src='https://images.unsplash.com/photo-1618588507085-c79565432917?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww&w=1000&q=80';
+    }
+    else if(image.src=='https://images.unsplash.com/photo-1618588507085-c79565432917?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwbmF0dXJlfGVufDB8fDB8fHww&w=1000&q=80'){
+        image.src='https://t3.ftcdn.net/jpg/05/35/47/38/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg';
+           }
+     else if(image.src=='https://t3.ftcdn.net/jpg/05/35/47/38/360_F_535473874_OWCa2ohzXXNZgqnlzF9QETsnbrSO9pFS.jpg'){
+            image.src='https://i.pinimg.com/originals/a4/96/c2/a496c2b6bc5d7cfe0e0674f6598c38ad.jpg'
+        }
+
+    else{
+        image.src='https://image.winudf.com/v2/image1/Y29tLnBlcmZhY3RhcHBzLmphbWVzLm5hdHVyZV9zY3JlZW5fMF8xNTQyOTA5OTczXzA5OQ/screen-0.webp?fakeurl=1&type=.webp';
+    }
+}
+    </script>
+</body>
+</html>

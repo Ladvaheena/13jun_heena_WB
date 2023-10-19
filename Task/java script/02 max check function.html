@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task-2</title>
+</head>
+<body>
+  <h2>Max value check</h2>
+  Number -1:
+  <input type="text" id="first"> 
+  Number-2:
+  <input type="text" id="second">
+  <button onclick="check()">check</button>
+  <script>
+    function check(){
+      var a=parseInt(document.getElementById('first').value);
+      var b=parseInt(document.getElementById('second').value);
+      if(a>b){
+      alert('a value is max');
+    }
+    else{
+      alert('b value is max');
+    }  
+}
+
+  </script>
+</body>
+</html>
