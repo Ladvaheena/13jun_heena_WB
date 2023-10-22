@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+</head>
+<body>
+    <h2>Switch-case</h2>
+    -> Switch case use to take various choice from the user.<br>
+    -> In this,we can pass multiple choices.<br>
+    -> Syntax:
+    <pre>
+        var a= value, b= value;
+        var Switch-case name = pass swith Case
+        Switch(Switch-case name){
+            case ('choice name'):
+                document.write(choice opration);
+                break;
+        }
+    </pre>
+    <br>
+    Choice Name:
+    <input type="text" id="write-choice">
+    <button type="button" onclick="enter()">enter</button>
+    Answer:
+    <input type="text" id="result">
+    <script>
+        function enter(){
+         var a = 8 , b = 3 ;
+         var choice = document.getElementById('write-choice').value;
+         let x = document.getElementById('result');
+         switch (choice){
+            case "addition":
+                var c = a + b;
+                x.value = c ; 
+                break;
+            case "substraction":
+                var c = a - b;
+                x.value = c;
+                break;
+            case "multiplication":
+                var c = a * b;
+                x.value = c;
+                break;
+            case "division":
+                if(b!= 0){
+                var c = a / b;
+                x.value = c;
+            }
+            else{
+                var c ='cannot divide by zero';
+                x.value = c;
+            }
+            break;
+                default:
+                x.value=invalidchoice; 
+                break;
+         }
+        }
+    </script>
+</body>
+</html>
