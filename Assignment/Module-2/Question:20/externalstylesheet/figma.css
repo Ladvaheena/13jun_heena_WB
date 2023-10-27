@@ -51,6 +51,10 @@
     display: none;
     position:absolute;
 }
+.header .head-text .menu .submenu li{
+    list-style: none;
+    /* display: none; */
+}
 .s-1{
     width: 100%;
     height: auto;
