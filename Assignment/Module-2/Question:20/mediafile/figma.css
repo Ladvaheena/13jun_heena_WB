@@ -33,6 +33,18 @@
       left: 400px !important;
       display: block !important;
     }
+   .header .head-text .menu .submenu{
+      display: none;
+    }
+
+    .header .head-text .menu .submenu li{
+      background:gray !important;
+      border-bottom: 1px solid;
+      padding: 5px 0px;
+      margin-right:60px !important;
+      font-weight: 700;
+      color: white;
+    }
     .s-1 .t-1{
         display: none;
     }
