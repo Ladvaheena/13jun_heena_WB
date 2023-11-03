@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function</title>
+</head>
+<body>
+    <h2>Function</h2>
+    -> Function is one type of block,in which code has been written.<br>
+    -> If we create a function,then that function must be call ,without calling function does not run.<br>
+    -> Example of various type function given here, which is print in console.<br>
+    <script>
+        // 1.without return type without parameter function
+        function Myfunction(){
+            console.log('this is my without return type & without perameter type function')
+        }
+        // calling the myfunction()
+        Myfunction();
+
+        // 2.without return type with parameter
+        function add(a,b){
+            let result= a + b;
+            console.log('addition of two number :'+ result );
+        }
+        // calling the add function
+        add(8,5);
+
+        // 3.with return type without perameter
+        function subtraction(){
+            let num1=parseInt(prompt('Enter First Number'));
+            let num2=parseInt(prompt('Enter Second Number'));
+            let subtract = num1 - num2
+            return subtract
+        }
+        // calling the substraction function
+        console.log('substraction of two number :' + subtraction());
+
+        // 4. with return type with parameter
+       function division(x,y){
+        return x/y;
+       }
+        // calling the division function 
+       console.log('division of two number :' + division (36,4));
+   </script>
+</body>
+</html>
