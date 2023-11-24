@@ -1,0 +1,123 @@
+.main {
+    width: 90%;
+    height: 80vh;
+    border: 2px solid;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.main img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: brightness(0.3);
+}
+
+/* .main svg {
+    position: absolute;
+    bottom: 0%;
+    z-index: 1;
+} */
+
+.box {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(137, 77, 73);
+    filter: opacity(0.9);
+    position: absolute;
+    bottom: 0;
+}
+
+.text {
+    position: absolute;
+    color: white;
+    /* border: 3px solid yellow; */
+    width: 100%;
+    height: auto;
+    /* left: 50%; */
+}
+
+.text h1 {
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+.text p {
+    margin-left: 40%;
+}
+.main .svg{
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    /* top: 58%; */
+    bottom: 0%;
+}
+
+
+.svg .image {
+    position: absolute;
+    width: 5%;
+    height: 15%;
+    border: 1px;
+}
+
+.svg .image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    filter: brightness(0.9) !important;
+}
+
+.svg .i-1 {
+    left: 8%;
+    top: 70%;
+}
+
+.svg .i-2 {
+    height: 20%;
+    width: 7%;
+    left: 26%;
+    top: 45%;
+}
+
+.svg .i-2 img {
+    border: 3px solid orangered;
+}
+
+.svg  h1 {
+    position: absolute;
+    bottom:10%;
+    left: 24%;
+    border: 1px solid;
+    /* width: 100%; */
+    /* height: auto; */
+    font-size: 20px;
+    color: orangered;
+}
+
+.svg  span {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    width: 15%;
+    /* border: 3px solid; */
+    height: auto;
+    font-size: 18px;
+}
+
+.svg .i-3 {
+    top: 33%;
+    left: 45%;
+}
+
+.svg .i-4 {
+    top: 44%;
+    right: 31%;
+}
+
+.svg .i-5 {
+    top: 44%;
+    right: 12%;
+}
