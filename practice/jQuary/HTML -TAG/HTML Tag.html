@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html tag</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // $('p').html('<b>hello</b>')
+            // $('p').text('<b>hello</b>')
+            // $('p').append('<b>hello</b>')---add text at last in same tag
+            // $('p').prepend('<b>hello</b>')----add text at start in same tag
+            // $('<b>hello</b>').appendTo('p')
+            $('<b>hello</b>').prependTo('p')
+            // $('p').before('<b>hello</b>')----add text at start in different tag
+            // $('p').after('<b>hello</b>')-----add text at last in different tag
+            // $('<b>hello</b>').insertBefore('p')--- same task like before() method
+            // $('<b>hello</b>').insertAfter('p')----same task like after()method
+            // $('p').remove()---- remove whole element from the body
+            // $('p').empty()----- remove only content from the target element
+            $('p').css("color", "blue")
+
+        })
+    </script>
+
+</head>
+
+<body>
+    <h2>HTML Method</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vero molestias placeat magni, accusantium assumenda
+        repudiandae, necessitatibus ut cupiditate nihil id cum quis rem similique dolorum, inventore quia eum at ducimus
+        debitis nobis quo sapiente.</p>
+    <!-- <button type="button" onclick="add">click</button> -->
+</body>
+
+</html>
