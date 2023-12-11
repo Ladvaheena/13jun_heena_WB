@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            font-size: 22px;
+            color: lightcoral;
+            background-color: blanchedalmond;
+        }
+        p{
+            font-size: 25px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h2> Hide-Effect</h2>
+    <button type="button">Read more</button>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores soluta, repellat nulla architecto cumque
+        aspernatur. Facere architecto rerum unde suscipit, quaerat mollitia minus molestiae maiores provident, molestias
+        esse neque repellendus harum placeat accusamus reiciendis fuga et? Fugiat corrupti, asperiores quibusdam cumque
+        hic quod, optio vero obcaecati distinctio consequatur aliquid vel.</p>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('button').click(function(){
+                    $('p').hide('slow')
+                })
+            })
+        </script>
+</body>
+
+</html>
