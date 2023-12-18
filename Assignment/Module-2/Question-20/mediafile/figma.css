@@ -31,7 +31,7 @@
     .header .head-text .menu{
       width:auto!important;
       margin-left: 350px !important;
-      text-align: right;
+      z-index: 1;
       display: block;
     }
     .header .head-text .menu .submenu{
@@ -42,11 +42,14 @@
       /* display: none; */
       /* width: 100%; */
       background: plum !important;
-      padding: 5px 0px;
+      padding: 5px 3px;
       /* margin-right:60px !important; */
       font-weight: 700;
       color: black;
+      background: rgb(149, 238, 233) !important;
+      cursor: pointer;
     }
+   
     .s-1 .t-1{
         display: none;
     }
@@ -56,6 +59,10 @@
         left: 27% !important;
         background: #F2F9EB !important;
     }
+   .header .head-text .menu .submenu li:hover{
+      text-decoration: underline;
+      color:rgb(174, 117, 43) ;
+   }
    
     .s-2 .t-1{
         width: 400px !important;
@@ -244,6 +251,9 @@
     height: 30px !important ;
     /* border: 1px solid !important; */
   }
+   .s-11 .footer-1 { 
+      padding: 5px 17px;}
+      
   .s-11 .footer-2{
     top: 150px !important;
   }
