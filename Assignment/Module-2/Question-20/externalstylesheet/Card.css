@@ -58,30 +58,21 @@
 
     
 }
-.icon .i-1 i{
+.icon .ic{
+    position: absolute;
+    background-color: white;
     border: 1px solid white;
     border-radius:50%;
     padding: 15px;
     color:orangered;
-    position: absolute;
     background-color: white;
+}
+.icon .i-1 {
     top: 150px;
 }
-.icon .i-2 i{
-    border: 1px solid white;
-    border-radius:50%;
-    padding: 15px;
-    color:orangered;
-    position: absolute;
-    background-color: white;
+.icon .i-2 {
     top: 280px;
 }
-.icon .i-3 i{
-    border: 1px solid white;
-    border-radius:50%;
-    padding: 15px;
-    color:orangered;
-    position: absolute;
-    background-color: white;
+.icon .i-3 {
     top: 420px;
 }
