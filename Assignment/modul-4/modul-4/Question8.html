@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Question-8</title>
+    <link rel="stylesheet" href="externalstylesheet/Qu-8.css">
 </head>
 <body>
     <h2>Qu-8 How can the style/class of an element be changed?</h2>
-    <u>Answer</u>:
+    <u>Answer</u>:<br>
+    <div class="detail">
+    ->In javascript, commonly two methods are used to change style/class of an element.<br>
+    1.style.property<br>
+    2.Changing the class itself<br>
+    <!-- first method -->
+    <h3>1.style.property</h3>
+-> this property is used to change the style of an element.<br>
+->Syntax:document.getElementById("id").style.property = new_style
+->Example;<br>
+<button onclick="stylechange()" >Style-change</button>
+<pre id="btn">
+    &lt;script&gt;
+    function stylechange(){
+        document.getElementbyId("btn").style.color = "red"
+    }
+    &lt;/script&gt;
+</pre>
+<!-- second method -->
+<h3>2.Changing the class itself</h3>
+-> This method is used to change class of the element.<br>
+->Syntax:document.getElementById("id").className = class<br>
+->Example;<br>
+<button onclick="stylecolor()" >Style-color</button>
+<pre class="white" id="color">
+    &lt;script&gt;
+    function stylecolor(){
+        let btn = document.getElementById('color')
+        btn.className = "black"}
+    &lt;/script&gt; 
+</pre>
+
+</div>
+</body>
+<script>
+    function stylechange(){
+        document.getElementById("btn").style.backgroundColor = "yellow"
+    }
+    function stylecolor(){
+        let btn = document.getElementById('color')
+        btn.className = "black"
+    }
 </body>
 </html>
