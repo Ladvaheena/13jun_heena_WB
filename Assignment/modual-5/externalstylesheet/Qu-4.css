@@ -1,0 +1,16 @@
+u{
+    font-size: 20px;
+}
+.body {
+    height: 50vh;
+}
+ li{
+    list-style: none;
+    padding-left: 1%;
+}
+.span{
+    border: 2px solid;
+    margin-bottom: 0.5%;
+    padding-left: 1%;
+
+}
