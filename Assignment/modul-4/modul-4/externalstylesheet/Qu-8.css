@@ -1,0 +1,31 @@
+u{
+    font-size: 22px;
+}
+.detail{
+    font-size: 20px;
+}
+.detail h3{
+    color: blue;
+    text-decoration: underline;
+}
+.detail button{
+    padding: 0.3% 0.5% ;
+    font-size: 28px;
+    display: block;
+    margin: auto;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+}
+.detail #btn{
+    background-color: skyblue;
+}
+.white {
+    background-color: skyblue;
+    color: black;
+}
+.black{
+    background-color: black;
+    color:white;
+}
+
