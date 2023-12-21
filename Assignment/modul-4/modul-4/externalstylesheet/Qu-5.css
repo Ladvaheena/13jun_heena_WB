@@ -1,0 +1,13 @@
+u{
+    font-size: 22px;
+}
+.detail{
+    font-size: 20px;
+}
+.detail span{
+    color: blue;
+    font-weight: 600;
+}
+.detail pre{
+    background-color: skyblue;
+}

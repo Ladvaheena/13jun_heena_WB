@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-11</title>
+    <link rel="stylesheet" href="externalstylesheet/Qu-11.css">
+    
+    </style>
+</head>
+<body>
+   <h2>What is the function of the delete operator?</h2> 
+   <u>Answer</u>:<br>
+   <div class="detail">
+    <h4>* Delete operator</h4>
+    -> delete operator used to remove/delete property from an object.<br>
+    -> On deletation of property,it will return true,if property does not remove/detele it will return false.<br>
+    -> If we will try to delete undeclared property , it will also return the true value.<br>
+    ->Syntax: delete object.property <br>
+    ->One example of it given here,<br>
+    <pre>
+    &lt;script&gt;
+    let Employee = {
+        firstname: 'Pooja',
+        lastname: 'Sharma',
+      };
+      console.log(Employee.firstname);
+      return output: "John"
+    //now,delete the firstname..
+      delete Employee.firstname;
+      console.log(Employee.firstname);
+      return output: undefined------ because,now firstname property will be deleted.
+    &lt;/script&gt;
+    </pre>  
+   </div>
+   <script>
+   let Employee = {
+    firstname: 'Pooja',
+    lastname: 'Sharma',
+  };
+  
+  console.log(Employee.firstname);
+// now ,delete the first name  
+  delete Employee.firstname;
+  
+  console.log(Employee.firstname);
+  </script>
+   
+</body>
+</html>

@@ -1,0 +1,16 @@
+u{
+    font-size: 22px;
+}
+.detail{
+    font-size: 20px;
+}
+.detail h3{
+    color: red;
+}
+.detail span{
+    color: blue;
+    font-weight: 700;
+}
+.detail pre{
+    background-color: skyblue;
+}

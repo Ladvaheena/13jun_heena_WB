@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-6</title>
+    <link rel="stylesheet" href="externalstylesheet/Qu-6.css">
+</head>
+<body>
+    <h2>Qu:-6  Write the code for adding new elements dynamically? </h2>
+    <u>Answer</u>:<br>
+    <div class="detail" id="info">
+     -> <mark>.innerHTML</mark> attribute is used for adding new elements dynamically.<br>
+     ->for this,first select the element.innerHTML , += & then write adding new element statement.<br>
+     -> Syntax :<br>
+     <span>
+        element.innerHTML += 'addition HTML code'
+     </span><br>
+     ->One Example given here,<br>
+     <pre>
+        &lt;script&gt;
+        document.getElementById('info').innerHTML+="&lt;big&gt;This is text added by innerHTML&lt;/big&gt;"
+        &lt;/script&gt;
+        //result shown below..
+     </pre>
+    </div>
+    <script>
+        document.getElementById('info').innerHTML+="<big>This is text added by innerHTML<big>"
+    </script>
+    
+</body>
+</html>

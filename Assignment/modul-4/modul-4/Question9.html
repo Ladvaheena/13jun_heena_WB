@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-9</title>
+    <link rel="stylesheet" href="externalstylesheet/Qu-9.css">
+</head>
+<body>
+    <h2>What are all the looping structures in JavaScript?</h2>
+    <u>Answer</u>:<br>
+    <div class="detail">
+        <h3>*LOOP</h3>
+        -> Loop is used to excute line of code multiple times.<br>
+        -> There are 2 types of loop,which is listed below;<br>
+        <pre>
+        i. Entry control loop:1.While-loop
+                              2.for loop
+                              3.for-in loop
+                              4.for-of loop
+                              5.for-each loop
+
+        ii. Exit control loop:1.Do white loop                      
+        </pre> 
+        <!-- entry control -->
+       <h4>Entry control loop</h4>
+       <!-- while loop -->
+       <span>1.While loop</span><br>
+       ->While is one type of entry control loop.<br>
+       ->While is create loop & print value if while condition become true.<br>
+       ->one example of it given here,<br>
+       <pre class="example">
+        &lt;script&gt;
+            let i=4;
+            while(i<=10){
+                document.write(i);
+                i++;
+                //result-- 45678910
+            }
+        &lt;/script&gt
+       </pre>
+
+       <!-- for-in -->
+       <span>2.For-in loop</span><br>
+       -> For-in loop is entry  control type loop.<br>
+       -> In this loop, print the number of maked index,index always start with '0'.<br>
+       ->one example of it given here,<br>
+       <pre class="example">
+        &lt;script&gt;
+        let array = ['a','b','c','d','e']
+        for(let i in array){
+            document.write(i);
+            }
+            //result--01234
+        &lt;/script&gt
+       </pre>
+       <!-- for-of -->
+
+       <span>3.For-of loop</span><br>
+       -> For-of loop is entry  control type loop.<br>
+       -> In this loop, print the value of  index.<br>
+       ->one example of it given here,<br>
+       <pre class="example">
+        &lt;script&gt;
+        let array = ['a','b','c','d','e']
+        for(let i of array){
+            document.write(i);
+            }
+            //result-- abcde
+        &lt;/script&gt
+       </pre>
+       <!-- for loop -->
+
+       <span>4.For loop</span><br>
+       -> For loop is entry control type loop.<br>
+       ->In its syntax,three parts are involved;1.Initial Expression 2. Condition 3.Increment/decrement.<br>
+       ->Syntax: for (initial expression;conditon;increment/decrement);<br>
+       <pre class="example">
+        &lt;script&gt;
+        for(i=0;i<=5;i++)
+        {
+        document.write(i);
+        }
+        //result-- 0123456
+        &lt;/script&gt;
+       </pre>
+       <!-- for each -->
+       <span>5.For Each</span><br>
+       ->for Each loop is entry control type control loop.<br>
+       ->Syntax:variable_name.forEach(function(){statement});<br>
+       ->one example of it given here,<br>
+       <pre class="example">
+        &lt;script&gt;
+        let Lauguage = ['c','c++','Java','Javascript']
+        Lauguage.forEach(function(value){
+            document.write(value + '&nbsp')
+        }); 
+        //result----c c++ Java Javascript
+        &lt;/script&gt;
+
+       </pre>
+
+
+       <!-- exit control -->
+       <h4>Exit control loop</h4>
+       <span>Do-While-loop</span><br>
+       -> Do -while is one type of exit control loop.<br>
+       -> It is apply by "do" keyword in script tag.<br>
+       ->In this loop,first print the value & after check the while condition.means,loop must be run one time.<br> 
+       ->one example of it given here,<br>
+       <pre class="example">
+        &lt;script&gt;
+        let i = 5; 
+        do
+        {
+            document.write(i+'&nbsp');
+            i++;
+        }
+        while(i <= 15);
+        //result--5 6 7 8 9 10 11 12 13 14 15
+        &lt;/script&gt
+       </pre>
+    </div>
+
+</body>
+</html>

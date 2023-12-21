@@ -1,0 +1,55 @@
+.main {
+    width: 60%;
+    height: 500px;
+    border: 3px solid;
+    margin: auto;
+}
+
+.main h3 {
+    text-align: center;
+    font-size: 33px;
+}
+
+.main label {
+    font-size: 32px;
+    margin: 0px 15px;
+}
+
+.main input {
+    font-size: 30px;
+    margin-left: 50px;
+    /* border: 2px solid; */
+}
+
+.box {
+    width: 40%;
+    height: 200px;
+    /* border: 2px solid; */
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.container .b-1 button {
+    font-size: 40px;
+    padding: 5px 30px;
+    margin: 0px 5px;
+}
+
+.b-2 {
+    line-height: 4;
+}
+
+.b-2 b {
+    font-size: 40px;
+}
+
+.b-2 span {
+    width: 60px;
+    height: 40px;
+    color: aqua;
+}

@@ -1,0 +1,14 @@
+u{
+    font-size: 22px;
+}
+.detail {
+    font-size: 20px;
+}
+.detail h4{
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.detail pre{
+    background-color: skyblue;
+}
