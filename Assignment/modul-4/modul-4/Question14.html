@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Question-14</title>
+    <link rel="stylesheet" href="externalstylesheet/Qu-14.css">
+
 </head>
 <body>
     <h2>Qu:-14 How can a page be forced to load another page in JavaScript?</h2>
+    <u>Answer</u>:<br>
+    <div class="detail">
+        ->In JavaScript, <mark>window.location object</mark> to force a page to load another page.<br>
+        ->In which,the location object is used to set the URL of a new page.<br>
+        ->there are two methods.<br>
+        1.window.location.replace() method<br>
+        2.window.location.assign() method<br>
+        ->above two method gives same output but main difference between them is in <b>window.location.assign()method</b> the priveous web page is stored in brower's history, so user can use that page again.<br>
+        -> In <b>window.location.replace() method </b>,the replced web page not save in brower's history. so user can
+        not used previous web page again.<br>
+        <!-- first method -->
+        <h3>1.window.location.replace() method</h3>
+        ->syntax:window.location.replace("new_url");<br>
+        ->Example;<br>
+        <button onclick="forceload()">load-replace</button>
+        <pre>
+            &lt;script&gt;
+            function forceload() {
+                window.location.replace("https://www.youtube.com");
+             }
+            &lt;/script&gt;
+        </pre>
+        <!-- second method -->
+        <h3>2.window.location.assign() method</h3>
+        ->syntax:window.location.assign("new_url");<br>
+        ->Example;<br>
+        <button onclick="force()">load-assign</button>
+        <pre>
+            &lt;script&gt;
+            function force() {
+                window.location.assign("https://www.google.com");
+             }
+            &lt;/script&gt;
+        </pre>
+    </div>
+    <script>
+        function forceload() {
+                window.location.replace("https://www.youtube.com");
+             }
+             function force() {
+                window.location.assign("https://www.google.com");
+             }
+    </script>
+
 </body>
 </html>
