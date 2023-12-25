@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="externalstylesheet/homepage.css">
+    <link rel="stylesheet" href="mediafile/homepage-media.css">
+
+        
+    
+</head>
+<body>
+   <div class="main">
+    <h1>Lorem ipsum dolor sit amet consectetur</h1>
+    <div class="date">
+         Released on: 29th March 2023
+    </div>
+    <br>
+    <!-- menu icon -->
+    <div class="menu">
+        <i class="fa-solid fa-bars" style="color: #868e9c;" onclick="menu()"></i>
+    <!-- <img src="image/Group 31.svg" alt="" >
+    <b onclick="menu()">MENU</b> -->
+    <ul id="sublist">
+        <li><a href="index.html">Article</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="community.html">Commmunity</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+    </div>
+    <!-- nav bar -->
+    <div class="nav">
+        <a href="index.html">ARTICLE</a>
+        <a href="photos.html">PHOTOS</a>
+        <a href="community.html">COMMUNITY</a>
+        <a href="about-us.html">ABOUT</a>
+        <a href="contact-us.html">CONTACT</a>
+    </div>
+    <div class="title">MAGGAZINE</div>
+    <br>
+    <br>
+    <div class="container">
+    <div class="box">
+        <br>
+<b>Fashion Collection </b>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore odit quos perspiciatis libero temporibus? Ipsum quod voluptates impedit temp.</p>
+    </div>
+    <div class="box">
+        <br>
+<b>Food Tips</b>
+<p>Labore odit quos perspiciatis libero temporibus? Ipsum quod voluptates impedit temp. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="box">
+        <br>
+<b>World Big Story </b>
+<p>Amet consectetur adipisicing elit. Labore odit quos perspiciatis libero temporibus? Ipsum quod voluptates impedit temp.</p>
+</div>
+</div>
+<br>
+<br>
+<!-- <br> -->
+<div class="text">
+    <big>JOTSAN</big>
+    <br>
+    Willar
+</div>
+</div> 
+<script>
+    // function menu(){
+    //     let submenu =  document.getElementById('submenu');
+    //     if(submenu.style.display == 'block')
+    //     {
+    //         submenu.style.display = 'none';
+    //     }
+    //     else{
+    //     submenu.style.display = 'block';}
+    // }
+
+    function menu(){
+        let sublist = document.getElementById('sublist');
+       if(sublist.style.display == 'block')
+         {
+             sublist.style.display = 'none';
+         }
+         else{
+             sublist.style.display = 'block';
+         }
+    }
+</script>
+
+</body>
+</html>

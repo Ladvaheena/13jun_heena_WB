@@ -1,0 +1,61 @@
+@media (min-width:400px) and (max-width:600px){
+    *{
+        box-sizing: border-box;
+    }
+    .main{
+        width: 100%;
+        height: 2620px;
+    }
+    .main .about-text{
+        width: 100%;
+        height: 600px;
+        padding:3px 5px;
+    }
+    .main .team {
+        width: 100%;
+    }
+    .main .team .team-member{
+        width: 100%;
+        height: 450px;
+        box-sizing: border-box;
+        margin: 8px 0px;
+    }
+    .main .team .team-member .image{
+        width: 80%;
+        left: 10%;
+        height: 450px;
+        /* margin: 2px 7px; */
+    }
+    .main .team .team-member .detail{
+        width: 80%;
+        left: 10%;
+    }
+}
+@media (min-width:600px) and (max-width:1200px){
+    *{
+        box-sizing: border-box;
+        /* outline: 3px solid white; */
+
+    }
+    .main{
+        width: 100%;
+        height: 1530px;
+    }
+    .main .about-text{
+        width: 100%;
+        height: 450px;
+        padding:3px 5px;
+    }
+    .main .team {
+        width:100%;
+    }
+    .main .team .team-member{
+        width: 46%;
+        height: 450px;
+        box-sizing: border-box;
+        margin: 8px 7px;
+    }
+    .main .team .team-member .image{
+        height: 450px;
+    }
+}

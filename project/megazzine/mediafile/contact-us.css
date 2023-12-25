@@ -1,0 +1,44 @@
+@media(min-width:300px) and (max-width:600px){
+    .main{
+        width:95%;
+        height:1200px;
+    }
+    .main .icon{
+        margin-left: 0px;
+        width: 100%;
+        /* border: 1px solid; */
+    }
+    .main .icon .fa-brands{
+        font-size: 34px;
+        margin: 0px 2px;
+    }
+    .main .subbox{
+        width: 100%;
+    }
+    .main .image{
+        width: 97%;
+    }
+}
+@media(min-width:600px) and (max-width:1300px){
+    .main{
+        width: 75%;
+        height: 1400px;
+        margin: auto;
+    }
+    .main .icon{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .main .icon .fa-brands{
+        font-size: 40px;
+        margin: 0px;
+    }
+    .main .subbox{
+        width: 100%;
+        margin: 0px;
+    }
+    .main .image{
+        height: 650px;
+    }
+    
+}

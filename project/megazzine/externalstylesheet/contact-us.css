@@ -1,0 +1,69 @@
+.main{
+    width: 80%;
+    height: 750px;
+    /* border: 1px solid red; */
+    margin: auto;
+    background: rgba(2, 69, 92,0.4);
+}
+.main i{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 40px;
+    
+}
+.main .subbox{
+width: 47%;
+height: 500px;
+/* border: 1px solid blue; */
+float: left;
+margin: 0px 12px;
+}
+.icon{
+width: 50%;
+text-align: right;
+height: 42px;
+/* border: 2px dashed black; */
+margin-left: 40%;
+font-size: 35px;
+font-family: cursive;
+
+}
+.icon .fa-brands {
+font-size: 50px;
+margin: 0px 3px;
+}
+.main h1{
+text-align: center;
+font-size: 40px;
+border-bottom: 4px double rgb(70, 70, 164);
+clear:both;
+}
+.main .image img{
+width: 100%;
+height: 100%;
+clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 66% 91%, 34% 91%, 6% 78%, 0% 43%, 17% 12%);
+}
+.main .form{
+text-align: center;
+}
+.main .form input{
+width: 70%;
+border-radius: 10%;
+font-size: 30px;
+padding: 7px 10px;
+margin: 10px;
+}
+.main .form #message{
+height: 150px;
+}
+.main .form #submit{
+width: 35%;
+font-size: 20px;
+border-radius: 30px;
+border: none;
+padding: 5px 20px;
+background-color: lightgreen;
+}
+
+
+
