@@ -9,7 +9,12 @@ u{
     line-height:2;
 }
 .detail .example{
+    margin: auto;
+    width: 60%;
     text-align: center;
     border: 1px solid blue;
     background-color: aquamarine;
+}
+pre{
+    background-color: skyblue;
 }
