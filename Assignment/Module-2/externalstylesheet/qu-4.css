@@ -5,10 +5,9 @@ h3 {
 div {
     font-size: 22px;
 }
-
-ol,
-li {
-    color: purple;
+pre{
+    background-color: skyblue;
+    font-size: 22px;
 }
 u{
     font-size: 25px;
