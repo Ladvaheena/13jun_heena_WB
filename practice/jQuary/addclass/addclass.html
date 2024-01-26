@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add class</title>
+    <script src="https://releases.jquery.com/git/jquery-git.js"></script>
+    <style>
+        .box{
+            width: 70%;
+            height: 50vh;
+            background-color: skyblue;
+            border: 5px solid black;
+            font-size: 30px;
+            padding: 0.2%;
+        }
+        button{
+            padding: 0.2%;
+            font-size: 25px;
+        }
+        .addclass{
+            background-color: wheat;
+            color: blue;
+            border: 3px dashed;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h3>Add/Remove class method</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quo vero, amet magnam quidem, ut dolorem et labore voluptate mollitia nam error consectetur maxime ipsa ullam provident explicabo assumenda veritatis consequuntur, facere repudiandae ex. Cupiditate dolor ratione alias iste perferendis itaque unde tenetur accusamus aut, magnam, nulla enim ipsam velit?</p>
+        <button class="add">click here for add</button>
+        <button class="remove">click here for remove</button>
+        <button class="toggle">click here for add/remove</button>
+
+
+
+    </div>
+    <script>
+        // for add class
+        $(document).ready (function(){
+            $(".add").click(function(){
+                $('div').addClass("addclass")
+            })
+        })
+        // for remove class
+        $(document).ready (function(){
+            $(".remove").click(function(){
+                $('div').removeClass("addclass")
+            })
+        })
+        // for toggle
+        $(document).ready(function(){
+            $(".toggle").click(function(){
+                $('div').toggleClass("addclass")
+            })
+        })
+    </script>
+</body>
+</html>
