@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouse-event</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        .box {
+            width: 80%;
+            background-color: lightcoral;
+            padding: 1%;
+        }
+
+        .box p {
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1>test-1</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias blanditiis sed repudiandae, autem nobis
+            provident nam. Perferendis neque impedit vel quos quia dolores voluptatibus totam. Repudiandae ea quaerat
+            eum ipsum!</p>
+    </div>
+    <script>
+        // click event
+        $(document).ready(function () {
+            $('.box').click(function () {
+                $('.box').css('background-color', "orange")
+            })
+        })
+        // double click event
+        $(document).ready(function () {
+            $('.box').dblclick(function () {
+                $('.box').css('background-color', "lightgreen")
+            })
+        })
+        // right click event
+        $(document).ready(function () {
+            $('.box').contextmenu(function () {
+                $('.box').css('background-color', "teal")
+            })
+        })
+        // mouseenter event
+        $(document).ready(function () {
+            $('.box').mouseenter(function () {
+                $('.box').css('background-color', "skyblue")
+            })
+        })
+        // mouseleave event
+        $(document).ready(function () {
+            $('.box').mouseleave(function () {
+                $('.box').css('background-color', "lightpink")
+            })
+        })
+    </script>
+
+</body>
+
+</html>
