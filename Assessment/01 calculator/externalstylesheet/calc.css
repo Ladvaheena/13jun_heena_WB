@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+.main {
+    width: 45%;
+    height: 600px;
+    margin: auto;
+    background-color: lightblue;
+    margin-top: 3%;
+    position: relative;
+}
+.main .calc {
+    position: absolute;
+    width: 80%;
+    height: 500px;
+    /* border: 2px solid; */
+    top: 8%;
+    left: 10%;
+}
+.main .calc .screen {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    text-align: right;
+    padding: 20px;
+}
+.main .calc .screen #function {
+    width: 100%;
+    height: 85px;
+    /* border: 3px dotted; */
+    font-weight: 700;
+    font-size: 50px;
+}
+.main .calc .screen #result {
+    width: 100;
+    height: 65px;
+    /* border: 2px dotted blue; */
+    font-size: 33px;
+}
+.main .calc .number {
+    width: 100%;
+    height: 345px;
+    /* border: 3px dotted green; */
+    display: flex;
+    align-items: center;
+}
+.main .calc .number .button-1 {
+    width: 80%;
+    height: inherit;
+    background-color: rgb(14, 13, 13);
+}
+.main .calc .number .button-2 {
+    width: 20%;
+    height: inherit;
+    background-color: rgb(85, 84, 84);
+}
+.main .calc .number .button-1 button {
+    font-size: 34px;
+    /* border: 2px solid yellow; */
+    width: 50px;
+    margin: 12px 35px;
+    padding: 3px 10px;
+    color: white;
+    background: transparent;
+    border: none;
+}
+.main .calc .number .button-2 button {
+    font-size: 35px;
+    width: 50px;
+    margin: 12px 20px;
+    padding: 3px 10px;
+    color: white;
+    background: transparent;
+    border: none;
+}
