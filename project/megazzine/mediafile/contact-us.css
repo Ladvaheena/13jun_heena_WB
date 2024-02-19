@@ -1,0 +1,189 @@
+@media(min-width:300px) and (max-width:600px){
+        *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        /* outline: solid; */
+    }
+    .main{
+        width:95%;
+        height:auto !important;
+    }
+    .header {
+        width: 98%;
+        height: 15vh;
+    }
+    
+    .header .subheader {
+        /* border: 2px solid red; */
+        width: 99%;
+        height: 5vh;
+    }
+    .subheader .s-1 h1{
+        font-size: 50px !important;
+    }
+
+    .subheader .s-2 {
+        display: none;
+    }
+
+    .main .nav{
+        display: none;
+    }
+    .main .menu{
+        width: auto;
+        display: block;
+        
+    }
+    .main .menu i{
+        color:white;
+        /* border: 3px solid red; */
+        margin: 0px 15px;
+        font-size: 40px;
+    }
+    .main .menu #sublist{
+        display: none;
+
+    }
+    .main .menu #sublist li{
+        list-style: none;
+
+    }
+    .main .menu #sublist li a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        /* border-bottom: 2px solid; */
+        line-height: 2;
+    }
+    .main .icon{
+        margin-left: 0px;
+        width: 99%;
+        /* border: 1px solid; */
+    }
+    .main .icon .fa-brands{
+        font-size: 34px;
+        margin: 0px 2px;
+    }
+    .contact-form{
+        width: 99%;
+        /* border: 3px solid darkblue !important; */
+        height: 170vh !important;
+    }
+     .main .contact-form .subbox{
+        width: 98% !important;
+    }
+    .main .image{
+        width: 97% !important;
+    } 
+    .second{
+        width: 98%;
+        height:165vh;
+    }
+   .b-1{
+    width: 100% !important;
+}
+.b-2{
+    width: 100% !important;
+}
+footer{
+    height: 10vh;
+}
+}
+@media(min-width:600px) and (max-width:1000px){
+    .main{
+        width: 75%;
+        height: auto !important;
+        margin: auto;
+    }
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        /* outline: solid purple; */
+    }
+    .header{
+        width: 80%;
+        height: 28vh;
+        margin: auto;
+    }
+    .header .subheader{
+        width: 98%;
+        height: 10vh;
+    }
+    .nav{
+        height: auto !important;
+        line-height: 2.5 !important;
+        word-spacing: 15px !important;
+    }
+    .nav a{
+        font-size: 16px !important;
+    }
+    .main .icon{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .main .icon .fa-brands{
+        font-size: 40px;
+        margin: 0px;
+    }
+    .main .contact-form .subbox{
+        width: 100% !important;
+        margin: 0px;
+    }
+    .main .image{
+        height: 650px;
+    }
+    .contact-form{
+        /* border: 3px solid darkblue !important; */
+        height: 170vh !important;
+        width: 81%;
+        margin: auto;
+    }
+  
+    .second {
+        width: 81%;
+        height: 160vh;
+        margin: auto;
+    }
+    .second .side{
+        width: 100% !important;
+    }
+   .second .side .b-2{
+        padding: 0px 2px;
+    }
+    .b-1{
+        width: 100% !important;
+        /* border: 3px solid teal; */
+    }
+    .image{
+        /* border: 3px solid brown; */
+        height: 14vh !important;
+    }
+    .imagebox{
+        width: 100%;
+        margin: 0px 2px;
+        /* border: 3px solid pink; */
+    }
+    
+    .imagebox.i1{
+        width: 30% !important;
+        height:14vh !important;
+    }
+     
+    .imagebox.i2{
+        width: 68%;
+        height:14vh !important;
+
+    }
+    .imagebox.i1 img{
+        width: 100%;
+        height: 100%;
+        display: none;
+    }
+      footer{
+        width: 80%;
+        margin: auto;
+        height: 10vh;
+    }
+}
