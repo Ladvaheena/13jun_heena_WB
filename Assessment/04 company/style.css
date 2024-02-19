@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header start */
+header{
+    height:auto;
+    background-color: orange;
+    padding: 2% 0%;
+}
+.navbar-nav{
+    width: auto;
+    /* border: 2px solid; */
+    margin-left: 54%;
+}
+.navbar-nav a{
+    /* border: 2px solid; */
+    margin: 0% 3%;
+}
+.fs-4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.search{
+    width: 30%;
+    margin: auto;
+}
+.search .btn {
+    background: orangered;
+}
+/* about us page */
+.about{
+    /* border: 3px solid; */
+    height: auto;
+    justify-content: space-around;
+
+}
+.about .info{
+    width: 75%;
+    /* border:3px solid blue */
+}
+.about .img{
+    width: 25%;
+    height: 35vh;
+    /* border: 3px solid green; */
+}
+.about .img img{
+    width: 100%;
+    height: 100%;
+}
+#service{
+    height: auto;
+    /* border: 3px solid; */
+}
+.service-box{
+    height: auto;
+    /* border: 2px solid; */
+    justify-content: space-evenly;
+    
+}
+.service-box .service{
+    width: 25%;
+    text-align: center;
+
+}
+.service .fa-solid{
+    color: orange;
+}
+.service .fa-solid:hover{
+    transform: scale(1.5);
+}
+.service .fa-brands{
+    color: orange;
+}
+.fa-brands:hover{
+    transform: scale(1.5);
+}
+#portfolio{
+    height: auto;
+    /* border: 2px solid; */
+}
+.city-box{
+    height: auto;
+    /* border: 3px solid blue; */
+    justify-content: space-between;
+}
+.city-box .item {
+    width: 32%;
+    height: auto;
+    /* border: 2px solid red; */
+}
+.city-box .item .image{
+    width: 100%;
+    /* border: 2px solid pink; */
+   }
+
+.city-box .item .image p{
+    text-shadow: 0px 0px 5px orangered;
+    font-weight: 700;
+}
+
+.city-box .item .image img{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(0.7);
+}
+.city-box .item .image img:hover{
+    transform: scale(0.9);
+    filter: opacity(0.7);
+}
+.carousel-control-prev{
+     color:orange;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    background-color: black;
+}
+#pricing{
+    height: auto;
+    /* border: 3px solid; */
+}
+.price-box{
+width: 100%;
+/* border: 3px solid orange; */
+justify-content: space-between;
+height: auto;
+}
+.card{
+    width: 30%;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px;
+    border: none;
+    transform: scale(0.9);
+}
+#contact{
+    height: auto;
+    /* border: 2px solid; */
+}
+.contact-from{
+    /* border: 2px solid red; */
+    height: auto;
+    justify-content: space-around;
+}
+form{
+    width: 45%;
+    height: auto;
+}
+
+
+
+

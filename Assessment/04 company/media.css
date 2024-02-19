@@ -1,0 +1,100 @@
+@media (max-width:580px){
+    
+    .search {
+        width: 100%;
+        padding: 0% 2% ;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about .info {
+        width: 100%;
+    }
+    .about .img {
+        width: 70%;
+        margin: auto !important;
+    }
+    .service-box{
+        flex-direction: column;
+    }
+    .service-box .service {
+        width: 70%;
+        margin: auto;
+    }
+    .city-box {
+        flex-direction: column;
+    }
+    .city-box .item{
+        width: 100%;
+    }
+    .carousel-caption{
+        display: block;
+        font-size: 14px !important;
+    }
+    .price-box{
+        flex-direction: column;
+    }
+    .card{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 2.5%;
+
+        /* padding: 0% 2%; */
+    }
+    .contact-from{
+        flex-direction: column;
+    }
+    form{
+        width: 100%;
+    }
+}
+/* tablet view */
+@media(min-width:580px) and (max-width:950px){
+    
+    .search {
+        width: 60%;
+        /* padding: 0% 2% ; */
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about .info {
+        width: 80%;
+        margin: auto;
+    }
+    .about .img {
+        width: 60%;
+        margin: auto !important;
+    }
+    .service-box .service{
+        width: 32%;
+    }
+    .city-box {
+        flex-direction: column;
+    }
+    .city-box .item{
+        width: 70%;
+        margin: auto;
+    }
+    .price-box{
+        flex-direction: column;
+    }
+    .card{
+        width: 66%;
+        margin: auto;
+        margin-bottom: 2.5%;
+        /* padding: 0% 2%; */
+    }
+    .contact-from{
+        flex-direction: column;
+    }
+    .detail{
+        width: 80%;
+        margin: auto;
+    }
+    form{
+        width: 100%;
+        /* margin: auto !important; */
+    }
+    
+}
