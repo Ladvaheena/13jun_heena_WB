@@ -1,0 +1,32 @@
+.icon {
+    width: 50%;
+    text-align: right;
+    height: 42px;
+    /* border: 2px dashed black; */
+    margin-left: 40%;
+    font-size: 35px;
+    font-family: cursive;
+
+}
+
+.icon .fa-brands {
+    font-size: 50px;
+    margin: 0px 3px;
+}
+/* conatct form */
+.contact-from{
+    height: 60vh;
+}
+.contact-from .image{
+    width: 45%;
+    height: 58vh;
+}
+ .contact-from .image img {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 66% 91%, 34% 91%, 6% 78%, 0% 43%, 17% 12%);
+}
+.contact-from .form{
+    width: 45%;
+    height: 58vh;  
+}

@@ -1,0 +1,24 @@
+@media(min-width:300px) and (max-width:600px){
+    .box{
+        height: 95vh;
+    }
+    .b-1{
+        width: 100% !important;
+        margin: auto !important;
+        height: 30vh !important;
+        margin-bottom: 3% !important;
+    }
+}
+@media(min-width:600px) and (max-width:1100px){
+    .box{
+        height: 130vh !important;
+        /* text-align: center !important; */
+    }
+    .b-1{
+        width: 70% !important;
+        margin: auto !important;
+        margin-bottom: 3% !important;
+        height: 40vh !important;
+        margin-left: 15% !important;
+    }
+}

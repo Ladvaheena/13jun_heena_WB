@@ -1,0 +1,107 @@
+body{
+    background: rgb(86, 86, 86);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* para */
+.para::first-letter{
+    font-size: 40px;
+    color:blue;
+    font-style: italic;
+}
+/* partner pic */
+.fam-pic h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 2px black;
+    color: #0797f8;
+}
+ .fam-pic .image {
+    width: 100%;
+    height: 70vh;
+    border: 7px dashed;
+    margin: auto;
+    border-image: linear-gradient(40deg, rgb(235, 154, 235), rgb(122, 66, 66), rgb(27, 27, 102), rgb(203, 203, 26), rgb(185, 50, 73), rgb(102, 140, 155))10;
+
+}
+ .image img {
+    width: 100%;
+    height: 100%;
+}
+/* event */
+.event h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 2px black;
+    color: #0797f8;
+}
+.carousel-item img{
+    width: 80% !important;
+    height: 50vh;
+    margin: auto;
+}
+.series {
+    height: 60vh;
+}
+.series h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 0px 2px black;
+    color: #0797f8;
+}
+.series .megazzine {height: 45vh;}
+.series-1 {
+    width: 28%;
+    height: inherit;
+    /* border: 2px solid green; */
+    margin:  0% 2.5%;
+}
+/* family animation */
+.series .s-1{
+    background-image: url(https://s8cdn.joomag.com/res_mag/0/124/124979/1806455/thumbs/43748808.jpg?1558100178);
+    background-size: 100% 100%;
+    animation-name: change1;
+    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes change1{
+0%{background-image:url("https://s8cdn.joomag.com/res_mag/0/124/124979/1806455/thumbs/43748808.jpg?1558100178")}
+25%{background-image: url("https://www.westchesterfamily.com/wp-content/uploads/2022/11/WestchesterFamily.jpg")}
+50%{background-image: url("https://colorpageonline.com/wp-content/uploads/2013/02/58453-Astor-Family-Magazine.jpg");}
+75%{ background-image: url(https://www.sandiegofamily.com/images/covers/sdfm_jan2019_cover_lg.jpg);}
+100%{background-image: url("https://image.isu.pub/170202014440-8cb1dc096fbf5297df53f9db14987333/jpg/page_1.jpg");}
+}
+/* adventure animation */
+.series .s-2{
+    background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/adventure-magazine-design-template-3e4735e36c1938e307a791f917a2c3ba_screen.jpg?ts=1668593678);
+    background-size: 100% 100%;
+    animation-name: change2;
+    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes change2{
+    0%{background-image: url("https://d1csarkz8obe9u.cloudfront.net/posterpreviews/adventure-magazine-design-template-3e4735e36c1938e307a791f917a2c3ba_screen.jpg?ts=1668593678");}
+    25%{background-image: url("https://pacificmedia-shop.co.nz/cdn/shop/products/Cover_8748ea7c-1b15-4def-bcaf-24b34c6c9a2f_724x.jpg?v=1689674761");}
+    50%{background-image: url("https://www.wiredforadventure.com/wp-content/uploads/2019/05/adventure-travel-magazine-141.jpg");}
+    75%{background-image: url("https://marketplace.canva.com/EAE2pLk2dxQ/1/0/1131w/canva-blue-sea-adventure-travel-magazine-covers-huGNk1Gk9PA.jpg");}
+    100%{background-image: url("https://images.uniquemagazines.co.uk/Large/344682_1.jpg");}
+}
+/* life positive animation */
+.series .s-3{
+    background-image: url(https://www.lifepositive.com/thumb/400_515_MjAyMS0wNS0yNiAwOTo1MTowMQ==_JUNE%20COVER.jpg);
+    background-size: 100% 100%;
+    animation-name: change3;
+    animation-duration: 15s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes change3{
+    0%{background-image: url("https://www.lifepositive.com/thumb/400_515_MjAyMS0wNS0yNiAwOTo1MTowMQ==_JUNE%20COVER.jpg");}
+    25%{background-image: url("https://authenticautismsolutions.com/wp-content/uploads/2015/05/Life-Positive-Magazine-Cover-May-2015-1.jpg");}
+    50%{background-image: url("https://www.lifepositive.com/photos/MjAyMC0xMi0yOSAxMTozNzo1MA==_Jan.jpg");}
+    75%{background-image: url("https://www.lifepositive.com/photos/MjAyMC0wNy0wMSAwNDozMzo0MA==_July%20Cover.jpg");}
+    100%{background-image: url("https://www.lifepositive.com/thumb/400_515_MjAyMC0wNS0xMiAxMDo1MzoxMg==_01.jpg");}
+}
